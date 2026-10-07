@@ -1,0 +1,13 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "title":"Customer Service pure plan, not a Core wire protocol",
+ "type":"object","additionalProperties":false,
+ "required":["action","operation_id","purpose","organization_id","resource_version","recipient","payload"],
+ "properties":{
+  "action":{"enum":["external-send","appointment-create","appointment-reschedule","appointment-cancel"]},
+  "operation_id":{"type":"string","minLength":1},"purpose":{"type":"string","minLength":1},
+  "organization_id":{"type":"string","minLength":1},"resource_version":{"type":"string","minLength":1},
+  "recipient":{"type":"object","additionalProperties":false,"required":["id","organization_id","classification"],"properties":{"id":{"type":"string","minLength":1},"organization_id":{"type":"string","minLength":1},"classification":{"const":"external-person"}}},
+  "payload":{"type":"object"}
+ }
+}
