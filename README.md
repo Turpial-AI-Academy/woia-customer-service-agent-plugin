@@ -1,42 +1,9 @@
 # woia-customer-service
 
-Portable Agent Plugin for Generic Customer Service coordination with exclusive person-contact and appointment ownership.
+Generic department orchestrator v0.5.0 implementing the accepted receive → understand → resolve → coordinate → follow-up service method. Core >=0.5.3 is the only hard plugin dependency. [Skill](skills/woia-customer-service/SKILL.md) documents provider composition and authority boundaries.
 
-## Capability
+External-person communication and appointment mutation execute through qualified Communications/Scheduling with authenticated Customer Service-owned work. Other business owners retain facts, procedures, human decisions and outcomes. No industry wrapper, universal router, permanent per-customer root or duplicated provider logic.
 
-~~~text
-DISCOVER -> DECIDE -> IMPLEMENT -> VALIDATE -> REPORT
-~~~
+The portable plan guard uses current adapter-verified context, returns fail-closed verdicts and never executes effects. [Execution contract](skills/woia-customer-service/references/execution-contract.md) defines its trust boundary; [qualification](skills/woia-customer-service/references/method.md) separates synthetic checks from real-host evidence. Actual external effects, provider qualification and Operator E2E remain NOT_RUN; Production Ready=false.
 
-The plugin adapts to the repository it operates on without requiring the consumer to adopt WOIA's authoring toolchain.
-
-## Portable package
-
-~~~text
-plugin.json
-README.md
-CHANGELOG.md
-LICENSE
-skills/**
-# optional source diagnostic when retained by the repository
-CHECKSUMS.sha256
-~~~
-
-`CHECKSUMS.sha256` is optional source evidence, not a required portable/release artifact.
-
-Add `mcp.json` only if the capability genuinely requires MCP.
-
-## Consumer requirements
-
-Document only genuine capability/runtime requirements here. Do not list maintenance Node/pnpm/Mise/Docker unless the portable capability itself truly needs them.
-
-## Development
-
-~~~text
-mise install
-mise run bootstrap
-mise run doctor
-mise run ci:fast
-mise run ci:extended
-mise run release:check
-~~~
+Maintenance: mise run bootstrap, mise run doctor, mise run test, mise run ci:fast. Commit a clean exact candidate before mise run release:check and Ecosystem plugin:certify-thin. Node/pnpm authoring pins do not become universal consumer requirements. The optional checksum manifest is absent.

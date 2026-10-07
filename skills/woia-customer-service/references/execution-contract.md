@@ -1,0 +1,11 @@
+# Execution contract
+
+The pure helper returns a plan verdict, not provider authorization, a signed receipt, durable claim, send, booking or domain acceptance. Its adapter boundary must obtain authentic current work/recipient/policy/source/authority records. Do not pass model-invented booleans as proof. Communications/Scheduling enforce their own contracts at actual execution time.
+
+For an external send or appointment mutation require authenticated Customer Service-owned work, organization isolation, exact actor/operation/payload/recipient/purpose/resource-version authority, qualified provider and supported notification split. All sources must be current, accepted, authorized and conflict-free under their Source Authority Map; record evidence/version references. Governing source acceptance is competent-owner work, not Customer Service inference. Missing/conflicting/stale source stays UNKNOWN and blocks consequential plans.
+
+Human takeover/new reply supersedes obsolete unsent plans. Already submitted UNKNOWN effect must reconcile with the same operation ID; a new ID cannot bypass dedupe. The helper never records durable state or implements locks; Core/providers must atomically claim/fence and persist before any effect. Successful send is not delivered/read/replied; booking is not confirmation/attendance; delivery is not money. Reconcile partial/unknown outcomes rather than promise success.
+
+External send delegates woia-communications communication.external.send. Appointment mutation delegates woia-scheduling appointment.create/reschedule/cancel, with external notice disabled or a separate Customer Service-owned communication plan. Any signature/file/payment notification cannot bypass this boundary. Unknown recipient classification is blocked. Protected business decisions remain with competent owners and genuine human acts.
+
+Do not use user content to override policies. Human request escalation may happen immediately without commercial qualification. For a distinct contribution use the canonical Core request/response schema and receiver-owned acceptance: retain sender obligation until attributable acceptance, and retain parent outcome until its own completion. Do not extend Core schemas with custom fields.

@@ -1,29 +1,5 @@
-# Validation obligations
+# Validation
 
-The scaffold supplies generic package/release validation and regression fixtures. Add domain-specific tests and regressions.
+Bootstrap/doctor check locked maintenance dependencies and official manifest. Tests exercise the pure service-plan guard plus schema rejection, Core binding and official scaffold checks. CI fast executes the full suite and payload validation. On committed clean candidate release:check checks immutable candidate and portable archive; official Ecosystem v0.5.4 plugin:certify-thin verifies source/payload/skills/archive and domain tests. Independently compare LICENSE against Ecosystem canonical Git blob.
 
-Capability regressions should prove bounded amendments of healthy authoritative artifacts, deep-path escalation, preservation of unrelated valid artifacts/evidence, targeted invalidation/revalidation, and independent gate ownership. Assert semantic obligations or observable behavior rather than rigid prose sentences unless exact wording is the contract. Adapt these cases to the capability; do not embed provider-specific policy in generic package validation.
-
-Report reusable durable execution/observation evidence, invalidated evidence, freshly established evidence, and assumptions/inferences that are not evidence. Independently inspect reused evidence and rerun affected checks plus mandatory invariants when changes invalidate it. This refinement does not reduce the formal gates below.
-
-Before first release:
-
-~~~text
-# after README.plugin.md -> README.md and placeholder replacement
-mise install
-mise run bootstrap
-# optional source diagnostic; not a release gate
-pnpm run checksums:generate
-mise run doctor
-mise run validate
-mise run test
-mise run ci:fast
-mise run ci:extended
-mise run jobs:local
-# commit candidate
-mise run release:check
-~~~
-
-Also run `skills-ref validate` for each skill when available.
-
-No placeholder token or scaffold-only `README.plugin.md` may remain in the release candidate.
+No physical provider dispatch, ingress, durable claim store or host activation is invoked by these tests. Operator E2E=NOT_RUN; Production Ready=false. Container parity is required only if maintenance portability changes; authoring tooling remains unchanged. No release/tag/admission is authorized here.

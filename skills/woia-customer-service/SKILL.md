@@ -1,55 +1,26 @@
 ---
 name: woia-customer-service
-description: Generic Customer Service coordination with exclusive person-contact and appointment ownership
+description: Coordinate Customer Service intake, authorized responses, appointment work, human escalation and durable follow-up through owning providers without adopting business-owner authority.
 license: MIT
 ---
 
-# woia-customer-service
+# Customer Service
 
-## Operating flow
+One generic root per organization, department and Project context. Industry differences come from accepted shared facts and owner playbooks, never a copied industry root. Core >=0.5.3 owns Tasks, Due Work, claims, snapshots and cross-department delivery. Configure qualified providers and private policies through Core bindings; installation is not activation or authority.
 
-~~~text
-DISCOVER -> DECIDE -> IMPLEMENT -> VALIDATE -> REPORT
-~~~
+## Five-part service method
 
-## Purpose
+1. **Receive and recover context.** Communications persists normalized Interaction/Event, provider event ID, provenance and correlation before reasoning. Resolve scoped identity and existing work. Phone/name does not prove identity or disclosure permission. A message is not automatically a Task. Replay resolves existing work; no second person or obligation.
+2. **Understand.** Consult authorized shared facts, current Knowledge and accepted owner playbooks directly. Sales/Leasing own their criteria and follow-up method; apply accepted versions locally without a mandatory synchronous hop. Preserve Evidence/Fact/Inference and UNKNOWN. Do not invent availability, consent, cadence, business facts or procedures.
+3. **Resolve.** Delegate external person ingress/send/status/reconciliation to Communications and appointment mutations to Scheduling under authenticated Customer Service-owned work. Providers revalidate exact effect/recipient/purpose/channel/resources/authority; execute only supported qualified paths. Booking, confirmation and attendance are separate. Payment screenshot is evidence for Finance, never cash acceptance. Negotiation and Offers remain human-led.
+4. **Coordinate.** Honor early human requests. Human takeover suppresses obsolete automation and resumes only under current ownership. Distinct outcomes use Core request/response, receiver-owned Tasks and correlated evidence; sender retains parent responsibility and unaccepted transfer. Delivery ACK is not acceptance/completion. Missing transport is BRIDGE_UNAVAILABLE, never manual-relay PASS or another owner's external-send fallback.
+5. **Follow up.** Core retains next action, owner, awaited contribution, blocker and next evaluation. Recheck new replies, human actions and changed permissions. UNKNOWN submitted effects retain operation identity and reconcile before retry. Supersede obsolete unsent plans. Close only the satisfied service obligation, never the sale, repair, lease or payment owned elsewhere.
 
-Receive, understand, resolve, coordinate and follow up through authorized shared capabilities
+## Triggered resources
 
-## Minimum sufficient evidence
+- Before any consequential plan or compound provider operation, load [execution contract](references/execution-contract.md) and use [pure plan guard](scripts/service-plan.mjs). The guard validates an adapter-verified context; it cannot authenticate an arbitrary JSON claim or execute effects.
+- Before configuring composition or qualification, load [method and qualification](references/method.md). Capability access never transfers owner authority; qualification on the actual host remains separate.
 
-Use a bounded path when an authoritative existing artifact/evidence set is healthy and the requested change is local and understood:
+Person notifications embedded in calendar/signature/payment/document APIs must be split and routed through Communications/Customer Service. If an adapter cannot disable or delegate its default notification, block that path. Internal staff messaging remains available to other authorized departments through Communications; an external vendor or employee in an external role is not internal by label.
 
-1. identify the artifact/evidence, source candidate, and affected surface;
-2. load only supporting context and references needed for that surface;
-3. amend or re-evaluate the smallest coherent unit;
-4. verify affected behavior plus mandatory cross-cutting invariants;
-5. preserve unrelated valid artifacts/evidence and report what changed.
-
-Use the deep path for a new artifact, unclear scope or contradictory evidence, public API/event/schema changes, persisted data/migrations, authentication/authorization/secrets/signing/trust boundaries, deployment/rollback/availability risk, cross-provider dependency restructuring, unhealthy or unfamiliar conventions, missing durable required evidence, or a failed invariant that invalidates reused evidence. Load the references/checklists needed by those triggers and retain all required safety validation.
-
-## Discover
-
-Inspect actual repository/system state before changing it. Locate authoritative artifacts/evidence and identify affected standards, constraints, supported platforms, integrations, and user requirements. Expand context when a dependency, uncertainty, or deep-path trigger requires it.
-
-## Decide
-
-Select the smallest strategy that satisfies the capability. Preserve healthy existing standards. Do not infer policy from the author's workspace.
-
-## Implement
-
-Apply only authorized changes. Keep domain semantics independent from unrelated tooling.
-
-## Validate
-
-Run capability-appropriate checks and verify changed state. Reuse evidence only when it is durable, inspectable evidence of actual execution/observation with an identifiable candidate, checked surface, relevant inputs/environment, and outcome. Independently establish that it satisfies the gate being owned; prose claims or recollection are not execution evidence.
-
-A later mutation invalidates the checks whose coverage or inputs it affects. Rerun those checks and mandatory related invariants; preserve unaffected valid evidence. Reuse expensive runtime verification across an unchanged candidate and relevant environment. A new turn/session alone does not invalidate evidence. Execute or observe relevant checks when required evidence cannot be inspected or established. Skipped/unavailable checks are not PASS.
-
-## Report
-
-Report current state, source candidate, affected surface, decisions, changes, and exact usage/maintenance commands. Distinguish reusable evidence, invalidated evidence, freshly established evidence, and assumptions/inferences that are not evidence. Include remaining risks and uncertainties.
-
-## Detailed references
-
-Add focused files under `references/` only when more detail is needed and give each reference a concrete scope/risk/ambiguity load trigger. Load triggered safety references; a bounded amendment does not require every reference or full template replay. Add scripts/assets only when they materially improve deterministic execution.
+General active-owner conversation remains human-managed; separately approved operational delivery can be performed within exact policy. Do not autonomously negotiate or transmit Offers. Do not grant Finance, Legal, Sales, Ads, Data or Operations authority. No universal router/backend, customer master, per-channel permanent root or parallel work engine.
