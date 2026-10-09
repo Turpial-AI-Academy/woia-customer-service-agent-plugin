@@ -1,6 +1,5 @@
 # Method and qualification
 
-Accepted basis: ADR-0011 five-part service method; ADR-0012 exclusive external execution; docs17 durable autonomous collaboration; docs21 provider ownership; docs22 Source Authority; docs24 exact authority/effects; docs25 engineering versus Operator E2E; docs26 generic root/no RE delta.
 
 This portable root supplies instructions and a deterministic plan guard. Communications, Scheduling, Identity, Knowledge, Documents and business providers remain capability owners resolved through Core resources, not new hard dependencies. Only Core >=0.5.7 is hard. Exact qualified release baseline is declared in dev.woia/manifest.json; a binding is not runtime qualification.
 
