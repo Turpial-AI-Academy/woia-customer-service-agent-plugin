@@ -1,7 +1,19 @@
 {
- "schema":"dev.woia.department-orchestrator/v1",
- "authoring_profile":"thin", "version":"0.5.0", "department":"customer-service",
- "execution_model":"receive-understand-resolve-coordinate-follow-up",
- "requires_plugins":[{"name":"woia-core","minimum_version":"0.5.3"}],
- "core_binding":{"repository":"Turpial-AI-Academy/woia-core-agent-plugin","tag":"v0.5.3","commit":"7a05b942bc244b385ea1403ed5dc975fdae22e24","tree":"f18ebe8268478aea7551713fafbbf90a3e54b0cc"}
+  "schema": "dev.woia.department-orchestrator/v1",
+  "authoring_profile": "thin",
+  "version": "0.5.6",
+  "department": "customer-service",
+  "execution_model": "receive-understand-resolve-coordinate-follow-up",
+  "requires_plugins": [
+    {
+      "name": "woia-core",
+      "minimum_version": "0.5.6"
+    }
+  ],
+  "core_binding": {
+    "repository": "Turpial-AI-Academy/woia-core-agent-plugin",
+    "tag": "v0.5.6",
+    "commit": "c8d336380182d5dc33f447a5f7ab2c63f763f925",
+    "tree": "911de6cdae02de424724e1c70503350f7c6870c6"
+  }
 }

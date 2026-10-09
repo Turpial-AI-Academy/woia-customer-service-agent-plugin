@@ -6,7 +6,7 @@ license: MIT
 
 # Customer Service
 
-One generic root per organization, department and Project context. Industry differences come from accepted shared facts and owner playbooks, never a copied industry root. Core >=0.5.3 owns Tasks, Due Work, claims, snapshots and cross-department delivery. Configure qualified providers and private policies through Core bindings; installation is not activation or authority.
+One generic root per organization, department and Project context. Industry differences come from accepted shared facts and owner playbooks, never a copied industry root. Core >=0.5.6 owns Tasks, Due Work, claims, snapshots and cross-department delivery. Configure qualified providers and private policies through Core bindings; installation is not activation or authority.
 
 ## Five-part service method
 
