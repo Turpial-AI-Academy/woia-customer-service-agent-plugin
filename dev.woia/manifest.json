@@ -1,19 +1,19 @@
 {
   "schema": "dev.woia.department-orchestrator/v1",
   "authoring_profile": "thin",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "department": "customer-service",
   "execution_model": "receive-understand-resolve-coordinate-follow-up",
   "requires_plugins": [
     {
       "name": "woia-core",
-      "minimum_version": "0.5.6"
+      "minimum_version": "0.5.7"
     }
   ],
   "core_binding": {
     "repository": "Turpial-AI-Academy/woia-core-agent-plugin",
-    "tag": "v0.5.6",
-    "commit": "c8d336380182d5dc33f447a5f7ab2c63f763f925",
-    "tree": "911de6cdae02de424724e1c70503350f7c6870c6"
+    "tag": "v0.5.7",
+    "commit": "b5506b6f73fc209915d92a7bb679c8d79d12a760",
+    "tree": "881bd4bf508c676dfcd3e2cec388a398d9bf03c9"
   }
 }

@@ -1,6 +1,6 @@
 # woia-customer-service
 
-Generic department orchestrator v0.5.6 implementing the accepted receive → understand → resolve → coordinate → follow-up service method. Core >=0.5.6 is the only hard plugin dependency. [Skill](skills/woia-customer-service/SKILL.md) documents provider composition and authority boundaries.
+Generic department orchestrator v0.5.7 implementing the accepted receive → understand → resolve → coordinate → follow-up service method. Core >=0.5.7 is the only hard plugin dependency. [Skill](skills/woia-customer-service/SKILL.md) documents provider composition and authority boundaries.
 
 External-person communication and appointment mutation execute through qualified Communications/Scheduling with authenticated Customer Service-owned work. Other business owners retain facts, procedures, human decisions and outcomes. No industry wrapper, universal router, permanent per-customer root or duplicated provider logic.
 
