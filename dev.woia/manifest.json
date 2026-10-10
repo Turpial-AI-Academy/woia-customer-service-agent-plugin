@@ -1,7 +1,7 @@
 {
   "schema": "dev.woia.department-orchestrator/v1",
   "authoring_profile": "thin",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "department": "customer-service",
   "execution_model": "receive-understand-resolve-coordinate-follow-up",
   "requires_plugins": [
